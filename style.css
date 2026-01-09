@@ -1,29 +1,58 @@
 * {
     margin: 0%;
-    padding: 0%;
     box-sizing: border-box;
 }
 
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
 /* shared style */
-.btn {
+
+
+.btn-primary {
     background-color:#30B868 ;
     color: rgba(255, 255, 255, 1);
     border: none;
     border-radius: 4px;
-    width: 164px;
-    height: 44;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 10px;
     padding: 12px 16px 12px 16px;  
+    cursor: pointer;
+}
+.btn-outline {
+    color: rgba(255, 255, 255, 1);
+    border: 1px solid white;
+    border-radius: 4px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 16px 12px 16px;  
+    cursor: pointer;
 }
 
 /* main style */
+
+
+
+body {
+    margin-inline: auto;
+    width: 1600px;
+    
+
+}
+
+
 header {
     background-color:var(--#FFFFFF, rgba(255, 255, 255, 1));
-    padding: 16px 120px 16px 120px;
+    /* padding: 16px 120px 16px 120px; */
+    
 }
 
 nav
@@ -31,10 +60,9 @@ nav
     width: 1600px;
     height: 92px;
     display: flex;
-    flex-direction: row ;
     justify-content: space-between;
     align-items: center;
-    margin-inline: auto;
+    padding-inline:120px ;
 }
 nav .menu{
     width: 365px;
@@ -51,4 +79,106 @@ nav .menu a {
     text-decoration: none ;
     margin: auto;
  
+}
+
+#banner {
+    height: 674px;
+    padding:116px 120px 180px;
+    background-image: url("./assets/hero-bg.png");
+    border: 1px solid red; 
+    text-decoration: none;
+}
+
+#banner-heading {
+    font-size: 64px;
+    color: #FFFFFF;
+    margin-block: 16px;
+    text-align: center;
+
+}
+#banner p{
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 24px;
+    
+}
+
+#banner .banner content{
+    width: 1360px;
+    height: 379px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 32px;
+    opacity: 100%;
+}
+
+
+#banner .banner content h1 {
+    width: 770px;
+    height: 168px;
+    opacity: 90%;
+    font-style:bold;
+    font-size: 72px;
+    font-weight: 700px;
+    line-height:84px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: #FFFFFF ;
+}
+#banner .banner content p {
+    color:rgba(255, 255, 255, 1); 
+
+}
+
+.section-heading p {
+    padding:16px ;
+    color: #627382;
+    
+}
+.section-heading h1 {  
+    font-size: bold;
+     
+}
+
+
+ #skills .skills-container {
+    text-align: center;
+ }
+
+ .skill-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 44px 120px 0px;
+
+ }
+.skill-box .skill-card {
+    border: 1px solid red;
+    padding: 60px 24px;
+
+}
+.skill-card img {
+    padding: 14px ;
+    border-radius: 50%;
+    background-color: #F95555; 
+}
+
+.skill-box h3 {
+    margin: 16px;
+}
+
+
+
+#naruto {
+    border: solid red;
+    padding: 120px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+
 }
