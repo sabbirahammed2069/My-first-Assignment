@@ -197,6 +197,7 @@ nav .menu a {
 .cta-section{
     background-color: #F7F6F2;
     padding: 80px 40px;
+    margin: 0 120px 120px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -212,3 +213,16 @@ footer {
     background-color: #001931 ;
     padding: 120px 120px 30px; 
 }
+
+footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+
+.social-link{
+    color: white;
+}
+
