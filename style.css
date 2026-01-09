@@ -156,8 +156,9 @@ nav .menu a {
 
  }
 .skill-box .skill-card {
-    border: 1px solid red;
+    border: 1px solid #f3f8fc;
     padding: 60px 24px;
+    
 
 }
 .skill-card img {
@@ -173,12 +174,21 @@ nav .menu a {
 
 
 #naruto {
-    border: solid red;
     padding: 120px;
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
     gap: 60px;
+
+
+}
+.naruto-card {
+    display: flex;
+    align-items: center;
+     gap: 8px;
+     margin-bottom: 16px;
+
+     
 
 }
